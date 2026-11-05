@@ -31,7 +31,8 @@ enum PokeymonType: String, CaseIterable {
     }
 }
 
-class Pokeymon {
+// MARK: Had to put nonisolated keyword here
+nonisolated class Pokeymon {
     var name: String
     var type: PokeymonType
     var attack: Int
