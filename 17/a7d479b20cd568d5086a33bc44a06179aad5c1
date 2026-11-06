@@ -1,0 +1,14 @@
+PokedexTestTests/PokedexTestTests.swift
+  h_66365dbbad392b 493,498-502
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "17a7d479b20cd568d5086a33bc44a06179aad5c1",
+  "prompts": {},
+  "humans": {
+    "h_66365dbbad392b": {
+      "author": "Dian Maisara <dian.maisara@foodpanda.com>"
+    }
+  }
+}
