@@ -490,11 +490,16 @@ final class FormVCTests: XCTestCase {
         let window = makeKeyTestWindow()
         window.rootViewController = nav
         sut.loadViewIfNeeded()
+        window.layoutIfNeeded()
         sut.tableView.reloadData()
         sut.tableView.layoutIfNeeded()
         let attackIndex = IndexPath(row: 0, section: 2)
         let defenseIndex = IndexPath(row: 1, section: 2)
-        
+
+        // the stats rows are below the fold; scroll so the table builds their cells
+        sut.tableView.scrollToRow(at: defenseIndex, at: .bottom, animated: false)
+        sut.tableView.layoutIfNeeded()
+
         // ACT - change the steppers like a user would
         let attackStepper = sut.tableView.cellForRow(at: attackIndex)?.accessoryView as? UIStepper
         let defenseStepper = sut.tableView.cellForRow(at: defenseIndex)?.accessoryView as? UIStepper
