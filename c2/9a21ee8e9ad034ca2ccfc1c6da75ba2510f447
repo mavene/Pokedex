@@ -1,0 +1,39 @@
+PokedexUITests/PokedexUITests.swift
+  s_4ec217a3c3e5da::t_1f834209c06ec8 20,23,25-26,30-31,37,39,45,49-50,61-62,95-96,107-117,126-130,132-137,140-141,143-158,166,168,174
+  s_4ec217a3c3e5da::t_765322b9d04cce 118-125
+  s_4ec217a3c3e5da::t_8b121514663d4b 11,27-29,32-36,38,40-44,46-48,63-94,97-106,131,138-139,142,159-165,173
+  s_4ec217a3c3e5da::t_13f2e563f0b4c9 51-60
+  s_4ec217a3c3e5da::t_c21cf1ac5309c3 8-10
+  s_4ec217a3c3e5da::t_9e8a2034860062 12-14,17-19
+  s_4ec217a3c3e5da::t_284fb063b65768 21-22
+  s_4ec217a3c3e5da::t_011bfa4c2bec8a 24
+  s_4ec217a3c3e5da::t_112969be519360 167
+  s_4ec217a3c3e5da::t_ee8ee5252d4d7e 169-172
+  s_4ec217a3c3e5da::t_eef6755a3b62c5 175
+Pokedex.xcodeproj/xcshareddata/xcbaselines/7BB26D26309D5C94001BFD12.xcbaseline/F5F4A7C2-F3BA-43C4-8691-678234547B6A.plist
+  s_70dd2a79f1ab35::t_ccee7baeae0d3a 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c29a21ee8e9ad034ca2ccfc1c6da75ba2510f447",
+  "prompts": {},
+  "sessions": {
+    "s_4ec217a3c3e5da": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2ef9b40a-dbc6-4f1e-b492-5b1d4608692d",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Dian Maisara <dian.maisara@foodpanda.com>"
+    },
+    "s_70dd2a79f1ab35": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d3ae4a3f-d671-4662-96f5-fdcd0c649b85",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Dian Maisara <dian.maisara@foodpanda.com>"
+    }
+  }
+}
